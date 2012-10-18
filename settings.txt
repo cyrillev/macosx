@@ -1,0 +1,8 @@
+
+* Finder
+** Display full path in the title bar
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+** Add Quit finder in the menu
+defaults write com.apple.finder QuitMenuItem -bool YES
+** Finder Toolbar app to open the current directory in the Terminal
+http://code.google.com/p/cdto/
